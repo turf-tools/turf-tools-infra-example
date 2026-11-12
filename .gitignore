@@ -1,0 +1,8 @@
+# Your stacks' settings and your deployment's configuration stay local.
+Pulumi.*.yaml
+!Pulumi.example.yaml
+*.env
+
+.venv/
+__pycache__/
+.DS_Store

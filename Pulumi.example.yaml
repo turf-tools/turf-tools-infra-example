@@ -1,0 +1,13 @@
+# Copy to Pulumi.<stack>.yaml after `pulumi stack init <stack>`, then fill in.
+config:
+  # Names the server, firewall, and SSH key: turf-tools-<name>.
+  turf-tools-infra-example:name: example
+  # A Latitude project ID, from the dashboard (`proj_…`). Pulumi never creates
+  # or deletes it.
+  turf-tools-infra-example:project: proj_REPLACE_ME
+  # A Latitude site and server plan.
+  turf-tools-infra-example:site: NYC
+  turf-tools-infra-example:size: m4-metal-small
+  # Optional; these are the defaults.
+  # turf-tools-infra-example:billing: hourly
+  # turf-tools-infra-example:ssh_public_key_path: ~/.ssh/id_ed25519.pub

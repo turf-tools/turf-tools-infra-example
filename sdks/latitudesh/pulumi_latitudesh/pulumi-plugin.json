@@ -1,0 +1,10 @@
+{
+  "resource": true,
+  "name": "terraform-provider",
+  "version": "1.2.0",
+  "parameterization": {
+    "name": "latitudesh",
+    "version": "3.5.0",
+    "value": "eyJyZW1vdGUiOnsidXJsIjoicmVnaXN0cnkub3BlbnRvZnUub3JnL2xhdGl0dWRlc2gvbGF0aXR1ZGVzaCIsInZlcnNpb24iOiIzLjUuMCJ9fQ=="
+  }
+}

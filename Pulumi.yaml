@@ -1,0 +1,12 @@
+name: turf-tools-infra-example
+runtime:
+  name: python
+  options:
+    toolchain: uv
+description: One machine for a Turf Tools deployment on Latitude.sh
+packages:
+  latitudesh:
+    source: terraform-provider
+    version: 1.2.0
+    parameters:
+      - latitudesh/latitudesh
